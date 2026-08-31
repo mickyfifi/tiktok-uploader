@@ -368,7 +368,7 @@ def complete_upload_form(
     if not skip_split_window:
         _remove_split_window(page)
     _handle_modals(page)
-    _set_interactivity(page, **kwargs)
+    # _set_interactivity(page, **kwargs)
     _set_description(page, description)
     if visibility != "everyone":
         _set_visibility(page, visibility)
